@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handwritten Text Recognition | Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9fafb;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #ff6a00;
+      color: #fff;
+      font-size: 1.1rem;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #e55b00;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #333;
+      color: #fff;
+    }
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 65%; /* Aspect ratio */
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Convert Handwriting to Digital Text Instantly</h1>
+    <p>Experience our state-of-the-art Handwritten Text Recognition model live.</p>
+    <a href="https://emeritus-21-handwritten-text-recognition.hf.space/" target="_blank" class="btn">Try the Demo</a>
+  </header>
+
+  <section>
+    <h2>Why Choose Our HTR Project?</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>High Accuracy</h3>
+        <p>Recognizes handwritten text with impressive precision across styles.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Fast Processing</h3>
+        <p>Upload handwriting samples and get results in seconds.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Simple to Use</h3>
+        <p>Intuitive design for students, researchers, and developers alike.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <p>Our recognition pipeline is easy and seamless:</p>
+    <ol style="text-align:left; max-width:600px; margin:auto;">
+      <li>Upload your handwritten text image.</li>
+      <li>Our AI processes and converts the handwriting.</li>
+      <li>Copy or download the recognized text instantly.</li>
+    </ol>
+  </section>
+
+  <!-- 🔥 Live Demo Section -->
+  <section>
+    <h2>See It in Action</h2>
+    <p>Here’s a live embedded demo of our Hugging Face Space:</p>
+    <div class="iframe-container">
+      <iframe src="https://emeritus-21-handwritten-text-recognition.hf.space/" allow="camera; microphone; clipboard-read; clipboard-write"></iframe>
+    </div>
+    <br><br>
+    <a href="https://emeritus-21-handwritten-text-recognition.hf.space/" target="_blank" class="btn">Launch Full Demo</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Handwritten Text Recognition Project | Built with ❤️ by Emeritus-21</p>
+  </footer>
+
+</body>
+</html>
